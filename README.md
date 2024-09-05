@@ -7,6 +7,8 @@ Problem: Implement a function to preprocess and tokenize text data.
 Implement in Python using libraries like NLTK or spaCy.
 Handle edge cases such as punctuation, stop words, and different cases.
 
+**Solution**
+
 **Features**
 **Text preprocessing:** Converts text to lowercase, removes punctuation, and filters stop words.
 **Tokenization:** Uses spaCy to split text into tokens.
@@ -27,6 +29,8 @@ Problem: Create a basic text generation model using a pre-trained transformer (e
 Use the Hugging Face Transformers library.
 Generate coherent text based on a given prompt.
 
+**Solution**
+
 **Features**
 **Text generation:** Uses a pre-trained DistilGPT-2 model to generate coherent text sequences.
 **Pipeline simplicity:** The Hugging Face pipeline function abstracts the model loading and text generation, making the script easy to use.
@@ -43,6 +47,8 @@ Problem: Design and evaluate prompts to improve the performance of a given AI mo
 **Requirements:**
 Experiment with different prompt designs.
 Evaluate the effectiveness of each prompt using appropriate metrics
+
+**Solution**
 
 **Features**
 **Question-Answering (QA):** Uses the DistilBERT model fine-tuned on the SQuAD dataset to answer questions based on a given context.
@@ -72,6 +78,8 @@ Problem: Develop a Python script to integrate with an external API and fetch dat
 Use the Requests library to make API calls.
 Handle API responses and errors gracefully.
 Parse and display the fetched data in a user-friendly format.
+
+**Solution**
 
 **Features**
 **YouTube Data API connection:** Connects to YouTube using an API key to access channel data.
